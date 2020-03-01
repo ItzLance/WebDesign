@@ -1,0 +1,143 @@
+body /*Body Styling*/
+{
+color: white;
+background-color: black;
+}
+header
+{
+background-image: url(../images/header_image.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 200px;
+color: navajowhite;
+border: 1px solid blue 
+}
+#logo /*Floats above the existing image left*/
+{
+float: left;
+height: 50px;
+width: 50px;
+}
+h1,h2,h3
+{
+    font-family: sans-serif;
+}
+nav /*Navigation menu Styling*/
+{
+    padding: 5px;
+    margin: 0px;
+    background-color: #8a8a8a;
+}
+nav ul
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+nav ul li
+{
+    list-style: none;
+    background-color: #B2B2B2;
+    display: inline-block;
+    padding: 15px;
+    margin: 5px;
+    border: 2px white solid;
+    border-radius: 1px;
+}
+nav ul li:hover /*When hovered over with mouse turns darkseagreen*/
+{
+    background-color: darkseagreen;
+}
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-family: sans-serif;
+}
+#content /*Contents around the image Styling*/
+{
+    border:1px solid #B2B2B2;
+    margin-right: 15px;
+    text-align: center;
+    width: 80%;
+    float: left; 
+}
+#BigPhoto /*Image Styling*/
+{
+ width: 100%;
+}
+aside /*Side Bar Styling*/
+{
+  border: 1px solid green;
+  padding: 5px;
+  width: 17.5%;
+  float: right;  
+ font-family: sans-serif;
+}
+aside ul li
+{
+list-style-type: none;
+}
+aside ul li a
+{
+color: blue;
+text-decoration: none;
+font-family: sans-serif;
+}
+main
+{
+    padding-top: 10px;
+    margin: 0px;
+    clear: both;
+    font-family: sans-serif;
+}
+main > h2 /* using parent class to style h2*/
+{
+ text-align: center;   
+}
+.ColumnStyle
+{
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding:2px;
+}
+footer/*Footer and buttons Styling*/
+{
+    padding: 5px;
+    margin: 0px;
+    background-color: #8a8a8a;
+    width: 100%;
+    border: 3px solid yellow;
+}
+footer ul
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+footer ul li 
+{
+list-style: none;
+background-color: #B2B2B2;
+display: inline-block;
+padding: 5px;
+}
+footer ul li a
+{
+color: white;
+text-decoration: none;
+padding: 5px;
+font-family: sans-serif;
+}
+#Copyright /*Copyright formating*/
+{
+    font-size: 1.2em;
+    margin: 10px;
+    font-family: sans-serif;
+    text-align: center; 
+}
+
+
+
+
+
